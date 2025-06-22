@@ -63,7 +63,7 @@ const userSchema = new mongoose.Schema(
       default: null,
     },
     forgot_password_expiry: {
-      type: Data,
+      type: Date,
       default: '',
     },
     role: {
