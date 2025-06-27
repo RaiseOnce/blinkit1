@@ -52,7 +52,7 @@ const userSchema = new mongoose.Schema(
         ref: 'cartProduct',
       },
     ],
-    order_history: [
+    orderHistory: [
       {
         type: mongoose.Schema.ObjectId,
         ref: 'order',
